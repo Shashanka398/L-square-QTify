@@ -18,7 +18,7 @@ const NavBar = ({ data }) => {
         </div>
         
         {/* <SearchBar data={data} className="searchbar" /> */}
-        <SearchBar data={data} className="searchbar"  placeholder="search" />
+        <SearchBar data={data} className="searchbar"  placeholder="Search a album of your choice"  />
         <Button text={"Give Feedback"}/>
 
         {/* <Modals title={'Give Feedback'} /> */}
