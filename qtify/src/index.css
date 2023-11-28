@@ -65,3 +65,14 @@ h6 {
 .swiper-slide {
 	width: auto !important;
 }
+
+.sectionWrapper {
+	font-family: "Poppins", sans-serif;
+	width: 87vw;
+	margin: auto auto;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	z-index: 3;
+	margin-bottom: 10px;
+}

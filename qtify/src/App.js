@@ -6,6 +6,8 @@ import NavBar from "./components/NavBar/NavBar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Section from "./components/Section/Section";
 import "./index.css";
+import styles from "./App.module.css"
+
 
 function App() {
   const [topAlbum, setTopAlbum] = useState([]);
@@ -40,8 +42,10 @@ function App() {
     <div className="App">
       <NavBar />
       <HeroSection />
+	  <div className={styles.sectionWrapper}>
       <Section title="Top Albums" data={topAlbum} type="album" />
 	  <Section title="New Albums" data={newAlbum} type="album" />
+	 </div>
     </div>
   );
 }
