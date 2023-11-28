@@ -1,5 +1,5 @@
 .btn {
-    color: #34c94b;
+    color: var(--color-primary);
     background: black;
   
     margin: 0.3rem;
