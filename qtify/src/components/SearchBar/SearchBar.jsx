@@ -5,8 +5,8 @@ import styles from "./SearchBar.module.css"
 const SearchBar = () => {
   return (
     <form className={styles.wrapper}>
-        <input className={styles.search} required/>
-        <button className={styles.searchButton} type='search' >
+        <input className={styles.search} placeholder="search" required/>
+        <button className={styles.searchButton} type='search'  >
             <SearchIcon/>
         </button>
     </form>

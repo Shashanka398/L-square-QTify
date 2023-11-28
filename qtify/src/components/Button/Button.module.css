@@ -1,5 +1,5 @@
 .btn {
-    color: var(--primary-color);
+    color: #34c94b;
     background: black;
   
     margin: 0.3rem;
@@ -7,6 +7,7 @@
   
     border: 0;
     border-radius: 8px;
+    font-family:"Poppins";
   
     font-size: 18px;
     font-weight: 600;

@@ -21,6 +21,7 @@
 	padding: 0;
 	align-items: center;
 	justify-content: space-between;
+	cursor: pointer;
 }
 
 .nav_link {
